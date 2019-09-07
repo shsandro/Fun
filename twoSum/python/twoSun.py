@@ -17,6 +17,7 @@ def main():
     #constroi a solução
     for i in range(len(nums)):
         val = numsMap.get(target - nums[i])
+        print("val: ", val)
 
         if val:
             solution[0] = val
